@@ -1,7 +1,13 @@
 import React from 'react'
+import styles from './Circles.module.scss'
 
 const Circles = () => {
-	return <div>Circles</div>
+	return (
+		<div className={styles.circles}>
+			<div />
+			<div />
+		</div>
+	)
 }
 
 export default Circles

@@ -7,7 +7,7 @@ const EmailButton = () => {
 	return (
 		<div className={styles.button}>
 			<a
-				href="mailto:Plandum@mail.ru"
+				href="mailto:plandum@mail.ru"
 				target="_blank"
 				rel="noreferrer"
 				title="Plandum"

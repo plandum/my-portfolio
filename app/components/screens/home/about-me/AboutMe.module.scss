@@ -1,12 +1,12 @@
 .me {
-  @apply mt-40 mb-6 text-center bg-zinc-900 relative;
+  @apply mt-40 mb-6 text-center relative bg-[#322b57];
 
   .image-wrapper{
-    @apply mb-6;
+    @apply mb-10 flex justify-center;
 
-    > span{
-      margin-top: -3rem !important;
-    }
+    >span {
+        margin-top: -2rem !important;
+      }
 
     .image{
       @apply rounded-full;

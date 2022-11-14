@@ -1,5 +1,5 @@
-const primaryColor = '#D87093'
-const bgColor = '#67058F'
+const primaryColor = '#FFCE0A'
+const bgColor = '#b157c7'
 
 module.exports = {
 	content: ['./pages/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx}'],

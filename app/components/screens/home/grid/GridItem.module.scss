@@ -1,0 +1,26 @@
+ .item {
+   @apply relative mx-auto;
+
+   .gradient {
+     @apply flex justify-center h-32 w-40 rounded-tl-layout border-primary border border-solid relative z-10;
+     transition: 0.8s;
+     background-size: 200% auto;
+   }
+
+   &:hover {
+     .gradient {
+       @apply rounded-tl-none rounded-br-none rounded-bl-layout rounded-tr-layout;
+       box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+       background-position: right center;
+     }
+
+     >div:nth-child(3) {
+       @apply hidden;
+     }
+   }
+
+   .title {
+     @apply text-white text-center opacity-80 font-medium mt-2 mb-1;
+     font-size: 1.09rem;
+   }
+ }

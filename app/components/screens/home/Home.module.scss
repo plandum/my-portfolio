@@ -1,9 +1,9 @@
 .section {
-  @apply relative overflow-hidden;
+  @apply relative overflow-hidden bottom-0;
   min-height: 100vh;
 
   .container{
-    @apply mx-auto relative z-10;
+    @apply  mx-auto relative z-10 bg-[#322b57] ;
     max-width: 1000px;
   }
 }

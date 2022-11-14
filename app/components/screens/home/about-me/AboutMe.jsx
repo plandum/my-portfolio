@@ -9,14 +9,16 @@ const AboutMe = ({ me }) => {
 	return (
 		<div className={styles.me}>
 			<div className={styles['image-wrapper']}>
-				<Image
-					src={`${APP_URL}${me.avatar}`}
-					width={190}
-					height={190}
-					className={styles.image}
-					alt={me.siteName}
-					quality={100}
-				/>
+				<span>
+					<Image
+						src={`${APP_URL}${me.avatar}`}
+						width={190}
+						height={190}
+						className={styles.image}
+						alt={me.siteName}
+						quality={100}
+					/>
+				</span>
 			</div>
 			<div className={styles.heading}>
 				<span>Plandum</span>

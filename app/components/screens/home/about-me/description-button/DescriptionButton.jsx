@@ -2,6 +2,7 @@ import React from 'react'
 import cn from 'classNames'
 import { useOutside } from '../../../../../hooks/useOutside'
 import styles from './DescriptionButton.module.scss'
+import parse from 'html-react-parser'
 
 const DescriptionButton = ({ description }) => {
 	const { isShow, setIsShow, ref } = useOutside(false)
@@ -16,7 +17,7 @@ const DescriptionButton = ({ description }) => {
 			>
 				<span>Обо мне</span>
 			</button>
-			{isShow && <article>{description}</article>}
+			{isShow && <article>{parse(description)}</article>}
 		</div>
 	)
 }
